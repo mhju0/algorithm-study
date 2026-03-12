@@ -9,8 +9,8 @@ let input = [];
 rl.on('line', function (line) {
     input = [line];
 }).on('close',function(){
-    str = input[0];
-    for (i=0; i < str.length; i++){
-        console.log(str[i]);
+    const str = input[0];
+    for (const char of str) {
+        console.log(char);
     }
-});
+    });

@@ -1,3 +1,7 @@
 function solution(arr) {
-    return arr.join('')
+    var answer = '';
+    for (let i of arr){
+        answer += i
+    }
+    return answer;
 }

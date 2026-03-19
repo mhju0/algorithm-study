@@ -1,3 +1,3 @@
 function solution(my_string, n) {
-    return my_string.slice(-n)
+    return my_string.substr(-n, n);
 }

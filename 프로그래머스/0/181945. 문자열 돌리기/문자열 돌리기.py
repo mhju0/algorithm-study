@@ -1,3 +1,2 @@
-str = input()
-
-print('\n'.join(str))
+for x in input():
+    print(x)

@@ -1,9 +1,5 @@
 def solution(num_list):
-    odd = ''
-    even = ''
-    for a in num_list:
-        if a % 2 == 1:
-            odd += str(a)
-        else:
-            even += str(a)
-    return int(odd) + int(even)
+    # join 연습 
+    odd = int(''.join(str(n) for n in num_list if n % 2 == 1))
+    even = int(''.join(str(n) for n in num_list if n % 2 == 0))
+    return odd + even

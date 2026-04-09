@@ -1,3 +1,6 @@
 def solution(start_num, end_num):
-    answer = list(range(start_num, end_num - 1, -1))
-    return answer
+    # list comprehension 
+    # return [i for i in range(start_num, end_num + 1)
+    # ----------------------------------------------------
+    # list() range() method
+    return list(range(start_num, end_num+1))

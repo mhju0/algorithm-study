@@ -1,8 +1,8 @@
 def solution(binomial):
-    new_list = binomial.split(" ")
-    if new_list[1] == "+":
-        return int(new_list[0]) + int(new_list[2])
-    elif new_list[1] == "-":
-        return int(new_list[0]) - int(new_list[2])
-    elif new_list[1] == "*":
-        return int(new_list[0]) * int(new_list[2])
+    a, op, b = binomial.split()
+    if op == "+":
+        return int(a) + int(b)
+    elif op == "-":
+        return int(a) - int(b)
+    elif op == "*":
+        return int(a) * int(b)

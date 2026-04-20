@@ -1,4 +1,5 @@
 # algorithm-study
-Solving problems on Programmers & Baekjoon to build algorithmic thinking.
 
-Auto-synced with BaekjoonHub.
+프로그래머스와 백준 문제 풀이를 기록하는 저장소입니다. 주 언어는 Python이며, 코딩 테스트 대비와 알고리즘적 사고력 향상을 목표로 합니다. 
+
+BaekjoonHub를 통해 제출 기록이 자동으로 동기화됩니다.

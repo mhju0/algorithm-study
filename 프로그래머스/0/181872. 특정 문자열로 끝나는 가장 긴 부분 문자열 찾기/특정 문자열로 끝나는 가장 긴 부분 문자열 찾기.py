@@ -1,2 +1,2 @@
 def solution(myString, pat):
-    return myString[0:(myString.rfind(pat)+len(pat))]
+    return myString[:(myString.rfind(pat)+len(pat))]

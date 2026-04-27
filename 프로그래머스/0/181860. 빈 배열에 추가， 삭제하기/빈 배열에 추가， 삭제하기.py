@@ -2,10 +2,8 @@ def solution(arr, flag):
     answer = []
     for v,f in zip(arr,flag):
         if f:
-            for i in range(v * 2):
-                answer.append(v)
+            answer.extend([v] * (v * 2))
         else:
-            for i in range(v):
-                answer.pop()
+            del answer[-v:]
     return answer
             

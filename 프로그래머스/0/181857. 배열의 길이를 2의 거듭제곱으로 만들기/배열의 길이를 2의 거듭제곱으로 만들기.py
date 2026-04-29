@@ -1,10 +1,7 @@
 def solution(arr):
-    i = 0
-    while True:
-        two = 2 ** i
-        if len(arr) <= two:
-            arr += [0] * (two - len(arr))
-            return arr
-        else:
-            i += 1
+    two = 1
+    length_arr = len(arr)
+    while two < length_arr:
+        two *= 2
+    return arr + [0] * (two - length_arr)
     

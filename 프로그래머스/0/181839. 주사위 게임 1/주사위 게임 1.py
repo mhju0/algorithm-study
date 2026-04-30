@@ -1,7 +1,8 @@
 def solution(a, b):
-    if a % 2 != 0 and b % 2 != 0:
+    odd_count = (a % 2) + (b % 2)
+    if odd_count == 2:
         return a ** 2 + b ** 2
-    elif a % 2 == 0 and b % 2 == 0:
-        return abs(a-b)
-    else:
+    elif odd_count == 1:
         return 2 * (a + b)
+    else:
+        return abs(a - b)

@@ -1,5 +1,2 @@
 def solution(myString):
-    for letter in myString:
-        if letter < 'l':
-            myString = myString.replace(letter, 'l')
-    return myString
+    return ''.join(map(lambda letter: letter if letter >= 'l' else 'l', myString))
